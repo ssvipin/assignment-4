@@ -1,0 +1,47 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgba(0, 0, 0, 0.493);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top:2em;
+}
+.container .list
+{
+    flex-basis: 200px;
+}
+.container .list1 ul li 
+{
+    line-height: 2em;
+}
+.container .list2 ol li 
+{
+    line-height: 2em;
+}
+.container .list3 ul li 
+{
+    line-height: 2em;
+}
+.container .list4 ul li 
+{
+    line-height: 2em;
+}
+.container .list4 ul li ul 
+{
+    padding-left:1em;
+}
